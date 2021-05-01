@@ -20,3 +20,5 @@ function numberConverter(numList){
 }
 
 // print out the result by calling the function
+phoneticList = numberConverter(nums);
+console.log(phoneticList.join());
